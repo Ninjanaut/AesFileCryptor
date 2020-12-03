@@ -10,10 +10,10 @@ namespace AesFileCryptor.Arguments
         [Option(Required = true, HelpText = "Select file path where encrypted or decrypted file will be saved.")]
         public string Output { get; set; }
 
-        [Option("save-key", HelpText = "Select file path, where newly generated symmetric key will be saved.")]
+        [Option("save-key", HelpText = "Select file path, where newly generated key will be saved.")]
         public string SaveKey { get; set; }
 
-        [Option("with-key", HelpText = "Select file path of existing symmetric AES key.")]
+        [Option("with-key", HelpText = "Select file path of existing key.")]
         public string WithKey { get; set; }
 
         [Option("encrypt", HelpText = "Encryption is turned off, select this option if you want to encrypt.")]
