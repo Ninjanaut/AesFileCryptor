@@ -19,12 +19,24 @@ Command Line utility targeting .NET Framework >= 4.6.1. Utility can encrypt or d
 
    Encrypt file:
 
-       AesFileCryptor --encrypt --file file.extension --output file.extension.aes --save-key file.extension.aes.key
+       AesFileCryptor --encrypt --file=somefile --output=encryptedfile --save-key=keyfile
 
    Encrypt file with existing key:
 
-       AesFileCryptor --encrypt --file file.extension --output file.extension.aes --with-key file.extension.aes.key
+       AesFileCryptor --encrypt --file=somefile --output=encryptedfile --with-key=keyfile
 
    Decrypt file with existing key:
 
-       AesFileCryptor --encrypt --file file.extension.aes --output file.extension --with-key file.extension.aes.key
+       AesFileCryptor --decrypt --file=encryptedfile --output=somefile --with-key=keyfile
+
+## Implementation detials
+
+* Key size is 256 bits
+* Mode is CBC
+* Padding is PKC7
+
+### Key file structure
+
+Generated key file is simple textfile where 
+* First line contains key in Base64 encoding
+* Second line contains initialization vector in Base64 encoding
