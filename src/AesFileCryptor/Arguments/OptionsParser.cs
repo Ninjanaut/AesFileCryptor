@@ -19,6 +19,17 @@ namespace AesFileCryptor.Arguments
 
             if (args.ToList().Contains("--help") || parseError)
             {
+                Console.WriteLine();
+
+                var about =
+                "About\n\n" +
+                "   Utility for encrypting and decrypting files with symmetric cipher (AES).";
+
+                Console.WriteLine(about);
+                
+                Console.WriteLine();
+                Console.WriteLine();
+
                 var help =
                 "Usage examples\n\n" +
                 "   Encrypt file:\n\n" +
@@ -29,6 +40,13 @@ namespace AesFileCryptor.Arguments
                 "       AesFileCryptor --encrypt --file file.extension.aes --output file.extension --with-key file.extension.aes.key\n\n";
 
                 Console.WriteLine(help);
+
+                var details =
+                "More details\n\n" +
+                "   https://github.com/Ninjanaut/AesFileCryptor";
+
+                Console.WriteLine(details);
+
                 Environment.Exit(0);
             }
             else
