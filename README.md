@@ -9,8 +9,8 @@ Requires .NET Framework >= 4.6.1.
 | ----------- | ----------- |
 | --file  | Required. Path of the file we want to encrypt or decrypt. |
 | --output  | Required. Select file path where encrypted or decrypted file will be saved.|
-| --save-key  | Select file path, where newly generated symmetric key will be saved.|
-| --with-key  | Select file path of existing symmetric AES key.|
+| --save-key  | Select file path, where newly generated key will be saved.|
+| --with-key  | Select file path of existing key.|
 | --encrypt  | Encryption is turned off, select this option if you want to encrypt.|
 | --decrypt   | Decryption is turned off, select this option if you want to decrypt.|
 | --help  | Display this help screen.|
