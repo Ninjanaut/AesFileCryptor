@@ -30,7 +30,7 @@ Requires .NET Framework >= 4.6.1.
 
        AesFileCryptor --decrypt --file=encryptedfile --output=somefile --with-key=keyfile
 
-## Implementation detials
+## Implementation details
 
 * Key size is 256 bits
 * Mode is CBC
