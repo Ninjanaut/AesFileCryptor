@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAF7EE82-AFBE-49C5-8504-7DE0D35431E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7230A069-0AA7-4A37-9E79-526DDB37AF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AesFileCryptor", "src\AesFileCryptor\AesFileCryptor.csproj", "{3CA8A203-0060-4762-89EF-5982297417FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AesFileCryptor.Tests", "tests\AesFileCryptor.Tests\AesFileCryptor.Tests.csproj", "{583E734D-36A6-467A-9EBC-32BCC0ED22F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CA8A203-0060-4762-89EF-5982297417FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA8A203-0060-4762-89EF-5982297417FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA8A203-0060-4762-89EF-5982297417FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA8A203-0060-4762-89EF-5982297417FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583E734D-36A6-467A-9EBC-32BCC0ED22F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583E734D-36A6-467A-9EBC-32BCC0ED22F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583E734D-36A6-467A-9EBC-32BCC0ED22F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583E734D-36A6-467A-9EBC-32BCC0ED22F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CA8A203-0060-4762-89EF-5982297417FD} = {AAF7EE82-AFBE-49C5-8504-7DE0D35431E9}
+		{583E734D-36A6-467A-9EBC-32BCC0ED22F7} = {7230A069-0AA7-4A37-9E79-526DDB37AF70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C6F934-0CD6-4320-A290-8A5C11D6AB62}
+	EndGlobalSection
+EndGlobal
