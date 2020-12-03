@@ -1,6 +1,7 @@
 # AesFileCryptor
 
-Command Line utility targeting .NET Framework >= 4.6.1. Utility can encrypt or decrypt file with symmetric AES cipher. Generated key file for crypting contains AES key and initialization vector (IV). 
+Utility for encrypting and decrypting files with symmetric cipher (AES).
+Requires .NET Framework >= 4.6.1.
 
 ## Help
 
